@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import CardsIndex from "../views/CardsIndex.vue";
+import IdeasIndex from "../views/IdeasIndex.vue";
 
 Vue.use(VueRouter);
 
@@ -20,6 +21,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ "../views/About.vue"),
   },
   { path: "/cards", name: "cards-index", component: CardsIndex },
+  { path: "/ideas", name: "ideas-index", component: IdeasIndex },
 ];
 
 const router = new VueRouter({
