@@ -11,6 +11,8 @@
       |
       <router-link to="/users">Signup</router-link>
       |
+      <router-link to="/sessions">Login</router-link>
+      |
       <router-link to="/sessions">Logout</router-link>
     </div>
     <router-view />
