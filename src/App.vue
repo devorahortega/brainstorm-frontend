@@ -8,6 +8,10 @@
       <router-link to="/cards">Cards</router-link>
       |
       <router-link to="/ideas">Ideas</router-link>
+      |
+      <router-link to="/users">Signup</router-link>
+      |
+      <router-link to="/sessions">Logout</router-link>
     </div>
     <router-view />
   </div>

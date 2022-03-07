@@ -3,6 +3,8 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import CardsIndex from "../views/CardsIndex.vue";
 import IdeasIndex from "../views/IdeasIndex.vue";
+import Signup from "../views/Signup.vue";
+import Logout from "../views/Logout.vue";
 
 Vue.use(VueRouter);
 
@@ -22,6 +24,8 @@ const routes = [
   },
   { path: "/cards", name: "cards-index", component: CardsIndex },
   { path: "/ideas", name: "ideas-index", component: IdeasIndex },
+  { path: "/users", name: "signup", component: Signup },
+  { path: "/sessions", name: "logout", component: Logout },
 ];
 
 const router = new VueRouter({
