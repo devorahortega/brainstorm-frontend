@@ -1,8 +1,8 @@
 <template>
   <div class="ideas-index">
-    <h1>All ideas</h1>
+    <h1>All Ideas</h1>
     <div v-for="idea in ideas" v-bind:key="idea.id">
-      <h2>{{ idea.idea }}</h2>
+      <p>{{ idea.idea }}</p>
     </div>
   </div>
 </template>
