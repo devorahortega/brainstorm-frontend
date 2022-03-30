@@ -5,15 +5,15 @@
       <h3>Name</h3>
       <input type="text" name="first_name" class="form-control" id="first_name" placeholder="First Name" required />
       <input type="text" name="last_name" class="form-control" id="last_name" placeholder="Last Name" required />
-      <h3>Username</h3>
+      <h3>Email</h3>
       <input
-        type="username"
+        type="email"
         class="form-control"
-        name="username"
-        id="username"
-        placeholder="Username"
+        name="email"
+        id="email"
+        placeholder="Email"
         required
-        v-model="newUserParams.username"
+        v-model="newUserParams.email"
       />
       <h3>Password</h3>
       <input
