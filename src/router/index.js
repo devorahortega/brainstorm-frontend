@@ -25,9 +25,9 @@ const routes = [
   },
   { path: "/cards", name: "cards-index", component: CardsIndex },
   { path: "/ideas", name: "ideas-index", component: IdeasIndex },
-  { path: "/users", name: "signup", component: Signup },
-  { path: "/sessions", name: "login", component: Login },
-  { path: "/sessions", name: "logout", component: Logout },
+  { path: "/signup", name: "signup", component: Signup },
+  { path: "/login", name: "login", component: Login },
+  { path: "/logout", name: "logout", component: Logout },
 ];
 
 const router = new VueRouter({
