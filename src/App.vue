@@ -7,6 +7,8 @@
       |
       <router-link to="/cards">Cards</router-link>
       |
+      <router-link to="/create">Create</router-link>
+      |
       <router-link to="/ideas">Ideas</router-link>
       |
       <router-link to="/signup">Signup</router-link>
