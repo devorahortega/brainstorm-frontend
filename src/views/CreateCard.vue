@@ -1,5 +1,5 @@
 <template>
-  <div class="prompt-new">
+  <div class="card-new">
     <br />
     <br />
     <br />
@@ -25,39 +25,23 @@
               method="post"
               role="form"
               class="php-email-form"
-              v-on:submit.prevent="createPrompt()"
+              v-on:submit.prevent="createCard()"
             >
               <ul>
                 <li v-for="error in errors" v-bind:key="error">{{ error }}</li>
               </ul>
               <div class="row"></div>
               <div class="form-group mt-3">
-                <input
-                  type="text"
-                  v-model="newPromptParams.title"
-                  class="form-control"
-                  name="title"
-                  id="title"
-                  placeholder="Prompt Title"
-                  required
-                />
-              </div>
-              <div class="form-group mt-3">
                 <textarea
                   class="form-control"
-                  v-model="newPromptParams.content"
-                  name="content"
+                  v-model="newCardParams.card"
+                  name="card"
                   rows="8"
-                  placeholder="Prompt Content"
+                  placeholder="Card Content"
                   required
                 ></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your prompt has been saved. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit" vaulue="Submit">Create Prompt</button></div>
+              <div class="text-center"><button type="submit" vaulue="Submit">Create Idea</button></div>
             </form>
           </div>
         </div>
@@ -71,17 +55,17 @@ import axios from "axios";
 export default {
   data: function () {
     return {
-      newPromptParams: {},
+      newCardParams: {},
       errors: [],
     };
   },
   created: function () {},
   methods: {
-    createPrompt: function () {
+    createCard: function () {
       axios
-        .post("/prompts", this.newPromptParams)
+        .post("/cards", this.newCardParams)
         .then(() => {
-          this.$router.push("/prompts");
+          this.$router.push("/cards");
         })
         .catch((error) => {
           this.status = error.response.status;
