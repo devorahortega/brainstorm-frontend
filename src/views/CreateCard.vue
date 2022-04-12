@@ -7,7 +7,7 @@
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>Create</h2>
-          <p>Make a new prompt:</p>
+          <p>Create a new card:</p>
         </div>
       </div>
 

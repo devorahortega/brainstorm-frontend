@@ -7,8 +7,24 @@
       </ul>
       <div>
         <label>Name:</label>
-        <input type="text" name="first_name" class="form-control" id="first_name" placeholder="First Name" required />
-        <input type="text" name="last_name" class="form-control" id="last_name" placeholder="Last Name" required />
+        <input
+          type="text"
+          name="first_name"
+          class="form-control"
+          id="first_name"
+          placeholder="First Name"
+          required
+          v-model="newUserParams.first_name"
+        />
+        <input
+          type="text"
+          name="last_name"
+          class="form-control"
+          id="last_name"
+          placeholder="Last Name"
+          required
+          v-model="newUserParams.last_name"
+        />
       </div>
       <div>
         <label>Email:</label>
