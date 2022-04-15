@@ -1,95 +1,96 @@
 <template>
   <div class="signup">
-               <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                <div class="row">
-                  <div class="form-group col-md-6">
-                    <label for="name">Your Name</label>
-                    <input type="text" name="name" class="form-control" id="name" required />
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="name">Your Email</label>
-                    <input type="email" class="form-control" name="email" id="email" required />
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="name">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject" required />
-                </div>
-                <div class="form-group">
-                  <label for="name">Message</label>
-                  <textarea class="form-control" name="message" rows="10" required></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
-              </form>
-    <form v-on:submit.prevent="submit()">
-      <h2>Create an Account</h2>
-      <ul>
-        <li v-for="error in errors" v-bind:key="error">{{ error }}</li>
-      </ul>
-      <div>
-        <label>Name:</label>
-        <input
-          type="text"
-          name="first_name"
-          class="form-control"
-          id="first_name"
-          placeholder="First Name"
-          required
-          v-model="newUserParams.first_name"
-        />
-        <input
-          type="text"
-          name="last_name"
-          class="form-control"
-          id="last_name"
-          placeholder="Last Name"
-          required
-          v-model="newUserParams.last_name"
-        />
-      </div>
-      <div>
-        <label>Email:</label>
-        <input
-          type="email"
-          class="form-control"
-          name="email"
-          id="email"
-          placeholder="Email"
-          required
-          v-model="newUserParams.email"
-        />
-      </div>
-      <div>
-        <label>Password:</label>
-        <input
-          type="text"
-          class="form-control"
-          name="password"
-          id="password"
-          placeholder="Password"
-          required
-          v-model="newUserParams.password"
-        />
-      </div>
-      <div>
-        <input
-          type="text"
-          class="form-control"
-          name="password_confirmation"
-          id="password_confirmation"
-          placeholder="Confirm Password"
-          required
-          v-model="newUserParams.password_confirmation"
-        />
-      </div>
-      <div class="text-center"><button type="submit" value="Submit">Create Account</button></div>
-    </form>
+    <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+        <div class="row">
+          <div class="form-group col-md-6">
+            <label for="name">Your Name</label>
+            <input type="text" name="name" class="form-control" id="name" required />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="name">Your Email</label>
+            <input type="email" class="form-control" name="email" id="email" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="name">Subject</label>
+          <input type="text" class="form-control" name="subject" id="subject" required />
+        </div>
+        <div class="form-group">
+          <label for="name">Message</label>
+          <textarea class="form-control" name="message" rows="10" required></textarea>
+        </div>
+        <div class="my-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your message has been sent. Thank you!</div>
+        </div>
+        <div class="text-center"><button type="submit">Send Message</button></div>
+      </form>
+      <form v-on:submit.prevent="submit()">
+        <h2>Create an Account</h2>
+        <ul>
+          <li v-for="error in errors" v-bind:key="error">{{ error }}</li>
+        </ul>
+        <div>
+          <label>Name:</label>
+          <input
+            type="text"
+            name="first_name"
+            class="form-control"
+            id="first_name"
+            placeholder="First Name"
+            required
+            v-model="newUserParams.first_name"
+          />
+          <input
+            type="text"
+            name="last_name"
+            class="form-control"
+            id="last_name"
+            placeholder="Last Name"
+            required
+            v-model="newUserParams.last_name"
+          />
+        </div>
+        <div>
+          <label>Email:</label>
+          <input
+            type="email"
+            class="form-control"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+            v-model="newUserParams.email"
+          />
+        </div>
+        <div>
+          <label>Password:</label>
+          <input
+            type="text"
+            class="form-control"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+            v-model="newUserParams.password"
+          />
+        </div>
+        <div>
+          <input
+            type="text"
+            class="form-control"
+            name="password_confirmation"
+            id="password_confirmation"
+            placeholder="Confirm Password"
+            required
+            v-model="newUserParams.password_confirmation"
+          />
+        </div>
+        <div class="text-center"><button type="submit" value="Submit">Create Account</button></div>
+      </form>
+    </div>
   </div>
 </template>
 
