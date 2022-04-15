@@ -22,9 +22,7 @@
     </div>
     <router-view />
 
-    <title>BrainSTORM</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+    
 
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
