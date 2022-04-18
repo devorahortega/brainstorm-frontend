@@ -3,8 +3,6 @@
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center">
         <h1 class="logo me-auto"><a href="index.html">BrainSTORM</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
         <nav id="navbar" class="navbar">
           <ul>
@@ -55,7 +53,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-3 col-md-6 footer-contact">
-              <h3>Arsha</h3>
+              <h3>BrainSTORM</h3>
               <p>
                 A108 Adam Street
                 <br />
@@ -78,23 +76,23 @@
               <ul>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="#">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="#">About us</a>
+                  <a href="/about">About us</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="#">Services</a>
+                  <a href="/cards">Cards</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="#">Terms of service</a>
+                  <a href="/create">Create</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="#">Privacy policy</a>
+                  <a href="/ideas">Ideas</a>
                 </li>
               </ul>
             </div>
@@ -156,16 +154,7 @@
         </div>
       </div>
     </footer>
-    <!-- End Footer -->
   </div>
-
-  <!-- <div id="nav">
-      <router-link to="/signup">Signup</router-link>
-      |
-      <router-link to="/login">Login</router-link>
-      |
-      <router-link to="/logout">Logout</router-link>
-    </div> -->
 </template>
 
 <style></style>
