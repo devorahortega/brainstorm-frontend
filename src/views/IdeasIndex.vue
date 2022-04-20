@@ -1,9 +1,26 @@
 <template>
   <div class="ideas-index">
-    <h1>All Ideas</h1>
-    <div v-for="idea in ideas" v-bind:key="idea.id">
-      <p>{{ idea.idea }}</p>
-    </div>
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Ideas</h2>
+          <p>A list of ideas to inspire your creativity and help you get started on your brainstorming.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div v-for="idea in ideas" v-bind:key="idea.id">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <p>{{ idea.idea }}</p>
+              </div>
+            </div>
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
