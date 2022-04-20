@@ -2,6 +2,8 @@
   <section id="about" class="about">
     <div class="container" data-aos="fade-up">
       <div class="section-title">
+        <br />
+        <br />
         <h2>About Us</h2>
       </div>
 

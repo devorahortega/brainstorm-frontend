@@ -20,7 +20,7 @@
                 <li><a href="/signup">Signup</a></li>
                 <li class="dropdown"></li>
                 <li><a href="/login">Login</a></li>
-                <li><a href="/login">Login</a></li>
+                <li><a href="/logout">Logout</a></li>
               </ul>
             </li>
             <li><a class="nav-link scrollto" href="/contact">Contact</a></li>

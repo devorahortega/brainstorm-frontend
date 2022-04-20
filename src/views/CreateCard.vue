@@ -41,7 +41,7 @@
                   required
                 ></textarea>
               </div>
-              <div class="text-center"><button type="submit" vaulue="Submit">Create Idea</button></div>
+              <div class="text-center"><button type="submit" vaulue="Submit">Create Card</button></div>
             </form>
           </div>
         </div>
