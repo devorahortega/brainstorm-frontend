@@ -9,12 +9,15 @@
             data-aos-delay="200"
           >
             <h1>Welcome to the BrainSTORM Program!</h1>
-            <h2>We are team of talented designers making websites with Bootstrap</h2>
+            <h2>
+              An online app that allows you to get all of the thoughts clouding your mind out onto paper so your ideas
+              can flourish and grow.
+            </h2>
             <div class="d-flex justify-content-center justify-content-lg-start">
-              <a href="/create" class="btn-get-started scrollto">Get Started</a>
-              <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video">
+              <a href="/create" class="btn-get-started scrollto">Get Started!</a>
+              <a href="/signin" class="glightbox btn-watch-video">
                 <i class="bi bi-play-circle"></i>
-                <span>Watch Video</span>
+                <span>Sign Up</span>
               </a>
             </div>
           </div>
