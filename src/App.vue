@@ -24,7 +24,7 @@
               </ul>
             </li>
             <li><a class="nav-link scrollto" href="/contact">Contact</a></li>
-            <li><a class="getstarted scrollto" href="/crete">Get Started</a></li>
+            <li><a class="getstarted scrollto" href="/create">Get Started</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -38,11 +38,11 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-6">
-              <h4>Join Our Newsletter</h4>
-              <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+              <h4>Questions Comments or Complaints</h4>
+              <p>Let us know what you think about our app!</p>
               <form action="" method="post">
                 <input type="email" name="email" />
-                <input type="submit" value="Subscribe" />
+                <input type="submit" value="Send" />
               </form>
             </div>
           </div>
