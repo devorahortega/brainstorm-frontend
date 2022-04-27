@@ -10,31 +10,27 @@
       <div class="row content">
         <div class="col-lg-6">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.
+            Our app allows you to create cards and fill them with the ideas floating around in your mind. Getting
+            everything down on paper can help you straighten out your thoughts and emotions.
           </p>
           <ul>
             <li>
               <i class="ri-check-double-line"></i>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat
+              Keep a collection and record of ideas
             </li>
             <li>
               <i class="ri-check-double-line"></i>
-              Duis aute irure dolor in reprehenderit in voluptate velit
+              Put down thoughts and emotions
             </li>
             <li>
               <i class="ri-check-double-line"></i>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat
+              Get ideas to write about
             </li>
           </ul>
         </div>
         <div class="col-lg-6 pt-4 pt-lg-0">
-          <p>
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <a href="#" class="btn-learn-more">Learn More</a>
+          <p>And if you can't think anything to write about we have a list of ideas to help you get you thinking.</p>
+          <a href="/signup" class="btn-learn-more">Get Started</a>
         </div>
       </div>
     </div>
