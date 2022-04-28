@@ -1,26 +1,56 @@
 <template>
   <div class="login">
-    <h2>Account</h2>
-    <p>Login</p>
-
-    <div class="col-lg-8 mt-5 mt-lg-0">
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form" v-on:submit.prevent="submit()">
-        <ul>
-          <li v-for="error in errors" v-bind:key="error">{{ error }}</li>
-        </ul>
-        <div class="col-md-6 form-group mt-3">
-          <input
-            type="email"
-            class="form-control"
-            name="email"
-            id="email"
-            placeholder="email"
-            required
-            v-model="newSessionParams.email"
-          />
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <br />
+          <br />
+          <h2>Login</h2>
         </div>
-        <div class="col-md-6 form-group mt-3">
-          <input
+
+        <div class="row">
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>7567 Laffayette ST Chicago, IL 101055, United States</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>brainstorm@example.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 5589 55488 55s</p>
+              </div>
+            </div>
+          </div>
+          </section>
+          <section>
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch"> 
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+              <div class="form-group">
+                <label for="name">Username</label>
+                  <input
+             type="email"
+             class="form-control"
+             name="email"
+              id="email"
+             placeholder="email"
+             required
+             v-model="newSessionParams.email"
+                />
+              </div>
+         
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input
             type="text"
             class="form-control"
             name="password"
@@ -28,10 +58,9 @@
             placeholder="Password"
             required
             v-model="newSessionParams.password"
-          />
-        </div>
-        <div class="col-md-6 form-group mt-3">
-          <input
+          />     <div class="form-group">
+                <label for="name">Subject</label>
+                <input
             type="text"
             class="form-control"
             name="password_confirmation"
@@ -40,15 +69,20 @@
             required
             v-model="newSessionParams.password"
           />
-        </div>
-        <div class="col-md-6 form-group mt-3">
-          <div class="text-center"><button type="submit" value="Submit">Login</button></div>
-        </div>
-      </form>
-    </div>
-  </div>
+              </div>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+          </div> 
+        </form>
+      </div>
+    </section>
 </template>
-
+        
 <script>
 import axios from "axios";
 export default {
