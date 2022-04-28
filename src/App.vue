@@ -55,9 +55,9 @@
             <div class="col-lg-3 col-md-6 footer-contact">
               <h3>BrainSTORM</h3>
               <p>
-                A108 Adam Street
+                7567 Laffayette ST
                 <br />
-                New York, NY 535022
+                Chicago, IL 101055
                 <br />
                 United States
                 <br />
@@ -66,7 +66,7 @@
                 +1 5589 55488 55
                 <br />
                 <strong>Email:</strong>
-                info@example.com
+                brainstorm@example.com
                 <br />
               </p>
             </div>
@@ -102,30 +102,33 @@
               <ul>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="#">Web Design</a>
+                  <a href="#">Stress Relief</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="#">Web Development</a>
+                  <a href="#">Emotional Expression</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="#">Product Management</a>
+                  <a href="#">Journaling</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="#">Marketing</a>
+                  <a href="#">Ideas</a>
                 </li>
                 <li>
                   <i class="bx bx-chevron-right"></i>
-                  <a href="#">Graphic Design</a>
+                  <a href="#">Literaly Brainstorming</a>
                 </li>
               </ul>
             </div>
 
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Our Social Networks</h4>
-              <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+              <p>
+                Please do not bother contacting us by any of htese there is no point and we wll not respond, social
+                media is a waste of time, just send us an email.
+              </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
