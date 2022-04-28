@@ -3,6 +3,8 @@
     <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
+          <br />
+          <br />
           <h2>Ideas</h2>
           <p>A list of ideas to inspire your creativity and help you get started on your brainstorming.</p>
         </div>
