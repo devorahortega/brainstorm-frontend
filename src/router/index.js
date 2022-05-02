@@ -7,6 +7,7 @@ import Signup from "../views/Signup.vue";
 import Login from "../views/Login.vue";
 import Logout from "../views/Logout.vue";
 import CreateCard from "../views/CreateCard.vue";
+import Contact from "../views/Contact.vue";
 
 Vue.use(VueRouter);
 
@@ -30,6 +31,7 @@ const routes = [
   { path: "/login", name: "login", component: Login },
   { path: "/logout", name: "logout", component: Logout },
   { path: "/create", name: "create-card", component: CreateCard },
+  { path: "/contact", name: "contact", component: Contact },
 ];
 
 const router = new VueRouter({
