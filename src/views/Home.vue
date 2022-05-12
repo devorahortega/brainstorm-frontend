@@ -15,10 +15,7 @@
             </h2>
             <div class="d-flex justify-content-center justify-content-lg-start">
               <a href="/create" class="btn-get-started scrollto">Get Started!</a>
-              <a href="/signin" class="glightbox btn-watch-video">
-                <i class="bi bi-play-circle"></i>
-                <span>Sign Up</span>
-              </a>
+              <a href="/signup" class="glightbox btn-watch-video">Sign Up</a>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
