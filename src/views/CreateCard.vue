@@ -33,8 +33,9 @@
               <div class="row"></div>
               <div class="form-group mt-3">
                 <textarea
-                  class="form-control"
+                  type="text"
                   v-model="newCardParams.card"
+                  class="form-control"
                   name="card"
                   rows="8"
                   placeholder="Card Content"
