@@ -126,7 +126,7 @@
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Our Social Networks</h4>
               <p>
-                Please do not bother contacting us by any of htese there is no point and we wll not respond, social
+                Please do not bother contacting us by any of these. There is no point and we wll not respond, social
                 media is a waste of time, just send us an email.
               </p>
               <div class="social-links mt-3">
