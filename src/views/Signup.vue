@@ -36,13 +36,7 @@
             </div>
 
             <div class="col-lg-8 mt-5 mt-lg-0">
-              <form
-                action="forms/contact.php"
-                method="post"
-                role="form"
-                class="php-email-form"
-                v-on:submit.prevent="submit()"
-              >
+              <form role="form" class="php-email-form" v-on:submit.prevent="submit()">
                 <ul>
                   <li v-for="error in errors" v-bind:key="error">{{ error }}</li>
                 </ul>
@@ -56,6 +50,7 @@
                       id="first_name"
                       placeholder="First Name"
                       required
+                      v-model="newUserParams.first_name"
                     />
                   </div>
                   <div class="col-md-6 form-group mt-3">
@@ -67,11 +62,20 @@
                       id="last_name"
                       placeholder="Last Name"
                       required
+                      v-model="newUserParams.last_name"
                     />
                   </div>
                   <div class="col-md-6 form-group mt-3">
                     <label for="name">Email</label>
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" required />
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Email"
+                      required
+                      v-model="newUserParams.email"
+                    />
                   </div>
                   <div class="col-md-6 form-group mt-3">
                     <label for="phone_number">Phone</label>
@@ -82,6 +86,7 @@
                       id="phone_number"
                       placeholder="Phone"
                       required
+                      v-model="newUserParams.phone"
                     />
                   </div>
                   <div class="col-md-6 form-group mt-3">
@@ -114,7 +119,7 @@
                     <div class="sent-message">Your account has been created. Thank you!</div>
                   </div>
                   <div class="col-md-6 form-group mt-3">
-                    <div class="text-center"><button type="submit" value="Submit">Create Account</button></div>
+                    <div class="text-center"><button type="submit" value="submit">Create Account</button></div>
                   </div>
                 </div>
               </form>
