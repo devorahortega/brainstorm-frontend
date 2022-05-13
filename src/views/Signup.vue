@@ -43,7 +43,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="forms/signup.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">First Name</label>
@@ -102,7 +102,7 @@
                     id="password-confirmation"
                     placeholder="Password Confirmation"
                     required
-                    v-model="newUserParams.password"
+                    v-model="newUserParams.password_confirmation"
                   />
                 </div>
               </div>
@@ -137,7 +137,7 @@ export default {
         .post("/users", this.newUserParams)
         .then((response) => {
           console.log(response.data);
-          this.$router.push("/login");
+          this.$router.push("/users");
         })
         .catch((error) => {
           this.errors = error.response.data.errors;
