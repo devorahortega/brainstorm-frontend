@@ -1,24 +1,31 @@
-# brainstorm-frontend
+# README 
 
-## Project setup
-```
-npm install
-```
+brainstorm-frontend
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This is the frontend of the BRAINstorm website which displays the cards and ideas created by users in different windows. It also allows users to create more cards and read a list of ideas.
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Technologies used in the creation of this database:
+
+Ruby version
+
+System dependencies
+
+Configuration
+
+Database creation
+
+Database initialization
+
+How to run the test suite
+
+Services (job queues, cache servers, search engines, etc.)
+
+Deployment instructions
+
+
+
+Any questions? Reach out to me at:
+
+LinkedIn at https://www.linkedin.com/in/devorahortega/
