@@ -1,30 +1,32 @@
 # README 
 
-brainstorm-frontend
+BRAINSTORM FRONTEND
 
-This is the frontend of the BRAINstorm website which displays the cards and ideas created by users in different windows. It also allows users to create more cards and read a list of ideas.
+This is the front-end of the BRAINstorm website which displays the cards and ideas created by users in different windows. It also allows users to create more cards and read a list of ideas.
 
-
+.
 
 Technologies used in the creation of this database:
 
-Ruby version
+Javascript Version - v17.0.1
 
-System dependencies
+Axios Version - ^0.26.0
 
-Configuration
+Vue Version - ^2.6.11
 
-Database creation
+Vue Router Version - ^3.2.0
 
-Database initialization
+Cors Version - ^2.8.5
 
-How to run the test suite
+CoreJS Version - ^3.6.5
 
-Services (job queues, cache servers, search engines, etc.)
+Bootstrap Theme - Arsha - https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
 
-Deployment instructions
+Features: Home, About, Card List, Create Card, Sign Up, Log In, Log Out, Ideas List, Contact
 
+Forms: Contact us form (not yet operational) 
 
+.
 
 Any questions? Reach out to me at:
 
