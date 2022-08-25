@@ -126,8 +126,10 @@
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Our Social Networks</h4>
               <p>
-                Please do not bother contacting us by any of these. There is no point and we wll not respond, social
-                media is a waste of time, just send us an email.
+                Unfortunately we don't currently have any socials up and running but feel free to send us a message
+                using the
+                <a href="/contact">contact</a>
+                page.
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
