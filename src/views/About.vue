@@ -5,11 +5,11 @@
         <br />
         <br />
         <h2>About Us</h2>
-        <p>
+        <h5>
           Our app allows you to create cards and fill them with the ideas floating around in your mind. Getting
           everything down on paper can help you straighten out your thoughts and emotions. And if you can't think
           anything to write about we have a list of ideas to help you get you thinking.
-        </p>
+        </h5>
         <br />
         <p>Below is a sample login so you can view all the aspects of the website without signing up for an account:</p>
       </div>
