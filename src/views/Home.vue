@@ -10,7 +10,7 @@
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <h1>Welcome to the BrainSTORM Program!</h1>
+            v
             <h2>
               An online app that allows you to get all of the thoughts clouding your mind out onto paper so your ideas
               can flourish and grow.
