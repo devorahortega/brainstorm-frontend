@@ -6,10 +6,10 @@
           <br />
           <br />
           <h2>Your Cards</h2>
-          <p>
+          <h5>
             This is a collection of all the cards you have made using BrainSTORM to put down all your ideas down on
             'paper'.
-          </p>
+          </h5>
         </div>
 
         <div v-for="card in cards" v-bind:key="card.id">

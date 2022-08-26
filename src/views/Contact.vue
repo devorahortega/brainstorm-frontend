@@ -4,6 +4,7 @@
       <div class="section-title">
         <br />
         <br />
+        <br />
         <h2>Contact</h2>
         <p>If you have any questions, comments or feedback, let us know!</p>
       </div>
