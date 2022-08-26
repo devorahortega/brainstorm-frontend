@@ -2,6 +2,7 @@
   <div class="home">
     <br />
     <br />
+    <br />
     <section id="hero" class="d-flex align-items-center">
       <div class="container">
         <div class="row">

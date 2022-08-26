@@ -4,6 +4,7 @@
       <div class="section-title">
         <br />
         <br />
+        <br />
         <h2>Ideas</h2>
         <h5>
           Here you will find a list of ideas to inspire your creativity and help you get started on your brainstorming,

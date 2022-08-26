@@ -5,6 +5,7 @@
         <div class="section-title">
           <br />
           <br />
+          <br />
           <h2>Your Cards</h2>
           <h5>
             This is a collection of all the cards you have made using BrainSTORM to put down all your ideas down on

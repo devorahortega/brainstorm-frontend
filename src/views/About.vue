@@ -4,6 +4,7 @@
       <div class="section-title">
         <br />
         <br />
+        <br />
         <h2>About Us</h2>
         <h5>
           Our app allows you to create cards and fill them with the ideas floating around in your mind. Getting
