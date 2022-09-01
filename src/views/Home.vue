@@ -3,6 +3,7 @@
     <br />
     <br />
     <br />
+    <br />
     <section id="hero" class="d-flex align-items-center">
       <div class="container">
         <div class="row">
@@ -11,7 +12,6 @@
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            v
             <h2>
               An online app that allows you to get all of the thoughts clouding your mind out onto paper so your ideas
               can flourish and grow.
