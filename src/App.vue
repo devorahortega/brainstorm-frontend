@@ -124,19 +124,19 @@
             </div>
 
             <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Our Social Networks</h4>
+              <!-- <h4>Our Social Networks</h4>
               <p>
                 Unfortunately we don't currently have any socials up and running but feel free to send us a message
                 using the
                 <a href="/contact">contact</a>
                 page.
-              </p>
+              </p> -->
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                 <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
               </div>
             </div>
           </div>
