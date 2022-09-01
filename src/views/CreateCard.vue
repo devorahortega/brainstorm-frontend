@@ -7,7 +7,7 @@
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>Create</h2>
-          <h5>Create a new card:</h5>
+          <h5>Write down what's on your mind or follow the idea you've chosen.</h5>
         </div>
       </div>
 
