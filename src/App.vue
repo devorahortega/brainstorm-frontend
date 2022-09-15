@@ -63,7 +63,7 @@
                 <br />
                 <br />
                 <strong>Phone:</strong>
-                +1 5589 55488 55
+                +1 558 554 8855
                 <br />
                 <strong>Email:</strong>
                 brainstorm@example.com
